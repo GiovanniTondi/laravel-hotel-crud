@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #e6e6e6;
+  line-height: 70px;
+  text-align: center;
+}
+
+main {
+  margin: 50px auto;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+main ul {
+  list-style: none;
+}
+
+main ul li {
+  padding: 5px 0;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #e6e6e6;
+  line-height: 70px;
+  text-align: center;
+}
+
