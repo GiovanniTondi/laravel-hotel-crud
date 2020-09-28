@@ -11,6 +11,11 @@
             STANZE
           </a>
         </h3>
+        <h3>
+          <a href="{!! route('pagamenti.index') !!}">
+            PAGAMENTI
+          </a>
+        </h3>
 
     </main>
 

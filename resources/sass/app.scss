@@ -8,6 +8,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     height: 70px;
     width: 100%;
@@ -35,6 +39,63 @@ main {
 
         li {
             padding: 5px 0;
+        }
+    }
+
+    table {
+        margin: auto;
+        padding: 20px 10px;
+        width: 45%;
+
+        background-color: #fcf4f4;
+        border-radius: 15px;
+        box-shadow: 0 0 15px 1px #e3dede;
+
+        text-align: center;
+
+        thead {
+            font-weight: bold;
+            font-size: 28px;
+        }
+    }
+
+    .fa-pen {
+        padding: 10px;
+        color: #14c619;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: #e1e686;
+        }
+    }
+
+    .fa-trash-alt {
+        padding: 10px;
+        color: #902508;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: #e1e686;
+        }
+    }
+
+    .form-edit {
+
+        width: 30%;
+        margin: auto;
+        padding: 20px 10px;
+
+        background-color: #fcf4f4;
+        border-radius: 15px;
+        box-shadow: 0 0 15px 1px #e3dede;
+
+        .form-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            justify-items: center;
+
+            margin: 10px;
         }
     }
 }

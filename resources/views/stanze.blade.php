@@ -23,6 +23,11 @@
                 Aggiungi una nuova stanza
             </a>
         </h3>
+        <h3>
+            <a href="{{ route('index') }}">
+                Torna alla Home
+            </a>
+        </h3>
     </main>
 
 @endsection
